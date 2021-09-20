@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="A_WEAR_CULTURE.Client">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>

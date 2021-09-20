@@ -1,0 +1,10 @@
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/bin/Release/netstandard2.1/A_WEAR_CULTURE.Shared.deps.json
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/bin/Release/netstandard2.1/A_WEAR_CULTURE.Shared.dll
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/bin/Release/netstandard2.1/A_WEAR_CULTURE.Shared.pdb
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/Release/netstandard2.1/A_WEAR_CULTURE.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/Release/netstandard2.1/A_WEAR_CULTURE.Shared.AssemblyInfoInputs.cache
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/Release/netstandard2.1/A_WEAR_CULTURE.Shared.AssemblyInfo.cs
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/Release/netstandard2.1/A_WEAR_CULTURE.Shared.csproj.CoreCompileInputs.cache
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/Release/netstandard2.1/A_WEAR_CULTURE.Shared.dll
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/Release/netstandard2.1/A_WEAR_CULTURE.Shared.pdb
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/Release/netstandard2.1/A_WEAR_CULTURE.Shared.csproj.AssemblyReference.cache

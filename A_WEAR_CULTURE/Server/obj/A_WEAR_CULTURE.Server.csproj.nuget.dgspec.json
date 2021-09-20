@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Server/A_WEAR_CULTURE.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/A_WEAR_CULTURE.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/A_WEAR_CULTURE.Client.csproj",
+        "projectName": "A_WEAR_CULTURE.Client",
+        "projectPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/A_WEAR_CULTURE.Client.csproj",
+        "packagesPath": "/Users/kentrinh/.nuget/packages/",
+        "outputPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kentrinh/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/A_WEAR_CULTURE.Shared.csproj": {
+                "projectPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/A_WEAR_CULTURE.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Server/A_WEAR_CULTURE.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Server/A_WEAR_CULTURE.Server.csproj",
+        "projectName": "A_WEAR_CULTURE.Server",
+        "projectPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Server/A_WEAR_CULTURE.Server.csproj",
+        "packagesPath": "/Users/kentrinh/.nuget/packages/",
+        "outputPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kentrinh/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/A_WEAR_CULTURE.Client.csproj": {
+                "projectPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/A_WEAR_CULTURE.Client.csproj"
+              },
+              "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/A_WEAR_CULTURE.Shared.csproj": {
+                "projectPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/A_WEAR_CULTURE.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/A_WEAR_CULTURE.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/A_WEAR_CULTURE.Shared.csproj",
+        "projectName": "A_WEAR_CULTURE.Shared",
+        "projectPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/A_WEAR_CULTURE.Shared.csproj",
+        "packagesPath": "/Users/kentrinh/.nuget/packages/",
+        "outputPath": "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kentrinh/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

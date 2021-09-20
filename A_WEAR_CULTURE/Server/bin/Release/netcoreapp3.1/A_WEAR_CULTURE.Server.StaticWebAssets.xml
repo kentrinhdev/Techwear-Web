@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/bin/Release/netstandard2.1/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/wwwroot/" />
+</StaticWebAssets>

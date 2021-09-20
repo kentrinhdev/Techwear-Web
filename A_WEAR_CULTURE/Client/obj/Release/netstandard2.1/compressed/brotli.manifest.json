@@ -1,0 +1,164 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/6A1YDT3mB2WoK_VFnZlHJUUySUkawaykVbSWp-bzKPg=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/A_WEAR_CULTURE.Client.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/A_WEAR_CULTURE.Client.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/UhR1hkvk4YGX1HuUXkRt5KEp5g8wW4gD6By6xmDzIEE=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/A_WEAR_CULTURE.Shared.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/A_WEAR_CULTURE.Shared.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/vOJuDIzlOkhu5YwSDOxNuF2Nme082Sz8rqQoAh_DpV4=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/bbYSncsFwUQ0p1LmLAHjeQ5EwIVLeI5dkdQ_XXDiuoc=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/N_lHf_gvdtWKDy5HmQvUtBYM_mbRNE218N7_LfoEV8c=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/jzHgXWAvWMkKIGFjZoT84tbe72E_H7CvTr-Dryh4QPs=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/1NrLahb7ur6g0HooteDFAPVgSyjN_il-5UXTSIIYH2c=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/Un1hXWcT9xkm0dW5zTZlIvD5GkQpMFMx6IC2GlPiXDA=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/3HebnfxJZNqB_rVNlTIOcGJv_1UJltkd09iqT8sIB2Y=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/wfizSuv6ZCEyMzJM_SO1_Vd97XuslkkWchQbg9XbT50=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/nQ9X4GTRMrERj4dYCwMAwXpJ5IaUN4CLNR8aNFJdZOk=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/IMNc_fuw7S1_Tbt0xujyP38kcaDpuEiVRkO-9phtBi0=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/Ww5tlHok0ZpfNrnG9WuG23pLO3KfvBfgZq9Joz2Pqek=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Logging.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/w1u16Yo2vJLSN-dIDuVlXL_ybwOV7FIExmcucURMCK8=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Options.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/FWEirdmylMSp9R5Zp9rwUAIDdehXMld2Fp6uOBMg0RI=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/3cbvJEo8k8VJVQwyEZWWQ6yGRFQW8-219DaOnmsX3e4=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.JSInterop.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/zV-OfJNfNsG404X30Pwkdymdh1KmZpTVEmG-JNFVc-k=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/PvKT3SJ4NO5vwiLyD2g127f_cHYZP0vnHKd2LRZLO5s=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/mscorlib.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/BaKmSt0P_BdJSo3ys_kv74w7cwZQIlvTOkdnD26VU84=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Core.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/KoxO3zdA5JZFWA44cm6kh6uXZhd2h782NLa4ImXfWPU=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/aUmnSxnADwjNoN3-33xyGH2ZXUvAbq89QgiEZqteOUI=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/6NEPrQZe74xSmMR9pc06v3HXs-WF6K97sICyVVO-8Lg=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/3GNaCc7VLDdTuck7d0n90zIAJSU7vsPywmPInzv1cD0=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/EoWj_sxS8Ii4u1Njy1R0qptveLt3ewqbEwid-tWycD8=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/_gFaH6TuYQnmfXBs_cSrLrzDDdnuqhlUmRzecjrZH3g=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Text.Encodings.Web.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/N1iDrVUxhw1iHJK5_V_-TkTiOwm4kANNnwj3nkpflt4=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Text.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/hfvNyC2zl9Rpw1iiEBxawYkMZIKwCYYH9M0xRuZ_NgU=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/linker\/WebAssembly.Bindings.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "\/Users\/kentrinh\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.3.2.0.js",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "\/Users\/kentrinh\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.timezones.dat",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "\/Users\/kentrinh\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.wasm",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
+      "Source": "\/Users\/kentrinh\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.build\/3.2.1\/tools\/blazor\/blazor.webassembly.js",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/wAfesxaDRvzmOvupgH3V92I-Rfy03dQB6ovLMKFvAJk=.hash",
+      "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Release\/netstandard2.1\/blazor\/blazor.boot.json",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
+    }
+  ]
+}
