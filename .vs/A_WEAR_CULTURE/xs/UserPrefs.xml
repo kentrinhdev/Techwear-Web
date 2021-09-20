@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{180CCAB4-274F-4004-AD2B-E9C27241F76A}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{180CCAB4-274F-4004-AD2B-E9C27241F76A}|Default">
   <MonoDevelop.Ide.ItemProperties.A__WEAR__CULTURE.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="A_WEAR_CULTURE/Client/Shared/ProductList.razor">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="100" Column="95" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="77" Column="65" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Client/wwwroot/css/app.css" Line="1" Column="1" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Product.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Category.cs" IsPinned="True" />
