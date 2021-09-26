@@ -45,9 +45,11 @@ app {
 }
 
     .main .top-row {
-        background-color: #f7f7f7;
-        border-bottom: 1px solid #d6d5d5;
-        justify-content: flex-end;
+        background-color: #090C0D;
+        vertical-align: middle;
+        /*background-color: #f7f7f7;*/
+        /*border-bottom: 1px solid #d6d5d5;*/
+        /*justify-content: flex-end;*/
     }
 
         .main .top-row > a, .main .top-row .btn-link {
@@ -61,11 +63,11 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #090C0D;
 }
 
     .sidebar .top-row {
-        background-color: rgba(0,0,0,0.4);
+        background-color: #090C0D;
     }
 
     .sidebar .navbar-brand {
@@ -152,7 +154,21 @@ app {
 
 
 
-/* CUSTOM SETTINGS */ 
+/* CUSTOM SETTINGS */
+.img-logo {
+    width: 120px;
+    height: 30px;
+}
+
+.row-nav-text {
+    font-family: 'SheepingCats-Regular', 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(40deg, #CD2F33, #5E0707);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
+}
+
 .media-img-wrapper {
     width: 200px;
     height: 200px;

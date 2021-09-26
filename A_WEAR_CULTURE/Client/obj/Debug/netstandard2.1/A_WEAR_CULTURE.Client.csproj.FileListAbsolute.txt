@@ -370,6 +370,6 @@
 /Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/A_WEAR_CULTURE.Client.GeneratedMSBuildEditorConfig.editorconfig
 /Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/pBRknluDa8vXxxnpdX2eKMEsIBne0obcoq6kFbjK_sA=.hash
 /Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/cUfEeMfr_-QYdkpsTA3JP84gq0vIZ_OxK9jpWI038Jg=.hash
-/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/RgUan9T1LovGy7lcpycSgY379owndaEoJD3-L_q3RiQ=.hash
-/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/rpZxjFOI9UrihdWwaegCyrSKNolRrfaH2dUVoNX23fI=.hash
-/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/h-2T3VVh3fYhEVO_2gLClJL4hPeNUH2z_ShUj3QIGls=.hash
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/n8J3pHKLto8bISM1Lvcm_PzzNOlODU3Uh7sQedCK77s=.hash
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/1tJ0T4MIrieu7qYtuTtK5bYuakSZ6zfTKHRqfRXVQ0s=.hash
+/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/obj/Debug/netstandard2.1/integrity/7quBpZnNbXdA352ePTZH5JSHjT1Xv_t9jQ1x9xZkbMI=.hash

@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "A_WEAR_CULTURE.Client.dll": "sha256-RgUan9T1LovGy7lcpycSgY379owndaEoJD3\/L+q3RiQ=",
+      "A_WEAR_CULTURE.Client.dll": "sha256-n8J3pHKLto8bISM1Lvcm+PzzNOlODU3Uh7sQedCK77s=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "A_WEAR_CULTURE.Client.pdb": "sha256-rpZxjFOI9UrihdWwaegCyrSKNolRrfaH2dUVoNX23fI=",
+      "A_WEAR_CULTURE.Client.pdb": "sha256-1tJ0T4MIrieu7qYtuTtK5bYuakSZ6zfTKHRqfRXVQ0s=",
       "A_WEAR_CULTURE.Shared.pdb": "sha256-cUfEeMfr+\/QYdkpsTA3JP84gq0vIZ+OxK9jpWI038Jg="
     },
     "runtime": {
