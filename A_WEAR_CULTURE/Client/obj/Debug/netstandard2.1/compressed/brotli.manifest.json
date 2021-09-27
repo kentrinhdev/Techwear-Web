@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/n8J3pHKLto8bISM1Lvcm_PzzNOlODU3Uh7sQedCK77s=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/V5Ax3babdRfIVbaUtZ7jHuetRRCC2lQAOhql35vlnQs=.hash",
       "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/A_WEAR_CULTURE.Client.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/A_WEAR_CULTURE.Client.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/1tJ0T4MIrieu7qYtuTtK5bYuakSZ6zfTKHRqfRXVQ0s=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/blkWa9bXSRA5_u61KtxogITX4xVC0boGblochWUbs5M=.hash",
       "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/A_WEAR_CULTURE.Client.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/A_WEAR_CULTURE.Client.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/7quBpZnNbXdA352ePTZH5JSHjT1Xv_t9jQ1x9xZkbMI=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/HMlBlV6u48ksjt1Is2ddXCmePZ3Vxvl0PwGKsTVuPS0=.hash",
       "Source": "\/Users\/kentrinh\/Projects\/A_WEAR_CULTURE\/A_WEAR_CULTURE\/Client\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     }

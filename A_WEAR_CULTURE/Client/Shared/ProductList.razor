@@ -182,17 +182,52 @@
     // Product 04
     static int tech04_ProductID = 4;
     static int tech04_CategoryID = 1;
-    static string tech04_ImageURL = "img/FI-82-RE.png";
-    static string tech04_ProductName = "Fire In Progress";
-    static string tech04_CodeName = "Codename: Techwear FI-82-RE";
+    static string tech04_ImageURL = "img/CODX_12_21.png";
+    static string tech04_ProductName = "Dead End";
+    static string tech04_CodeName = "Codename: Techwear COD-X-12-12";
     static string tech04_ProductColor = base_Color;
-    static decimal tech04_RegPrice = 39.99m;
-    static decimal tech04_PromoRate = 0m;
+    static decimal tech04_RegPrice = 34.99m;
+    static decimal tech04_PromoRate = 0.17m;
     static decimal tech04_PromoPrice = decimal.Round(tech04_RegPrice - (tech04_RegPrice * tech04_PromoRate), 2, MidpointRounding.AwayFromZero);
     static decimal tech04_PromoPercentage = decimal.Round(tech04_PromoRate * 100, 0, MidpointRounding.AwayFromZero);
     static string tech04_PromoDescription = $"{tech04_PromoPercentage}% Off {promoDescription}!";
 
     static string tech04_Desc =
+        "Design inspired by the abbreviated, stylized word for Technical Wear " +
+        "fused with the Maya Calendar and Codex, aka the Mayan Codex of Mexico " +
+        "previously known as the Grolier Codex. The 'End of World' would come December 21st. " +
+        "Techwear represents tactical, futuristic fashion that can be easily identified " +
+        "by trench coats, boots, and black clothing that pervades deep into Pop Culture. " +
+        "The alt style pays homage to the gritty urban dystopian future found in " +
+        "science fiction and anime films like Johnny Mnemonic, The Matrix, Blade Runner, " +
+        "Aeon Flux, Akira, and Ghost in the Shell. It became a full-fledged fashion genre " +
+        "in the late 1980s and " +
+        "continues to increase in popularity as the reality we are living in inches closer " +
+        "to the dystopia in films. \n\n \n" +
+
+        "+ Designed and Printed in the U.S.A. \n" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee \n" +
+        "+ Material: 100% Ringspun Cotton";
+
+    static string[] tech04_ProductIntro = tech04_Desc.Split(' ');
+    static string tech04_shortIntro = shortensIntro(tech04_ProductIntro);
+
+    //==========================================================
+
+    // Product 05
+    static int tech05_ProductID = 4;
+    static int tech05_CategoryID = 1;
+    static string tech05_ImageURL = "img/FI-82-RE.png";
+    static string tech05_ProductName = "Fire In Progress";
+    static string tech05_CodeName = "Codename: Techwear FI-82-RE";
+    static string tech05_ProductColor = base_Color;
+    static decimal tech05_RegPrice = 39.99m;
+    static decimal tech05_PromoRate = 0m;
+    static decimal tech05_PromoPrice = decimal.Round(tech05_RegPrice - (tech05_RegPrice * tech05_PromoRate), 2, MidpointRounding.AwayFromZero);
+    static decimal tech05_PromoPercentage = decimal.Round(tech05_PromoRate * 100, 0, MidpointRounding.AwayFromZero);
+    static string tech05_PromoDescription = $"{tech05_PromoPercentage}% Off {promoDescription}!";
+
+    static string tech05_Desc =
         "Design inspired by the abbreviated, stylized word for Technical Wear " +
         "combined with what Tactical Units often refer to as Ten-Dash (10-) Codes, " +
         "and the stylized word that is trending all over the internet meaning 'Totally Awesome' " +
@@ -209,8 +244,8 @@
         "+ Blacked-Out | Ribbed Collar | High-Quality Tee \n" +
         "+ Material: 100% Ringspun Cotton";
 
-    static string[] tech04_ProductIntro = tech04_Desc.Split(' ');
-    static string tech04_shortIntro = shortensIntro(tech04_ProductIntro);
+    static string[] tech05_ProductIntro = tech05_Desc.Split(' ');
+    static string tech05_shortIntro = shortensIntro(tech05_ProductIntro);
 
     //==========================================================
 
@@ -287,21 +322,17 @@
         },
         new Product
         {
-            ProductID = 5,
-            CategoryID = 1,
-            ProductImage = "https://www.apemockups.com/wp-content/uploads/edd/2018/04/Free-Simple-T-Shirt-Mockup.jpg",
-            ProductName = "Creature of the Black Lagoon",
-            CodeName = tech01_CodeName,
+            ProductID = tech05_ProductID,
+            CategoryID = tech05_CategoryID,
+            ProductImage = tech05_ImageURL,
+            ProductName = tech05_ProductName,
+            CodeName = tech05_CodeName,
             ProductDesigner = productDesigner,
-            ProductDescription = "Creature from the Black Lagoon is a 1954 American black-and-white 3D monster horror" +
-                                 " film from Universal-International, produced by William Alland, directed by" +
-                                 " Jack Arnold, and starring Richard Carlson, Julie Adams, Richard Denning, Antonio" +
-                                 " Moreno, Nestor Paiva, and Whit Bissell. The Creature was played by Ben Chapman on" +
-                                 " land and by Ricou Browning underwater.",
-            ProductColor = "BLACK",
-            ProductPrice = 39.99m,
-            PromotionDescription = "NONE",
-            PromotionPrice = 0.00m
+            ProductDescription = tech05_shortIntro,
+            ProductColor = tech05_ProductColor,
+            ProductPrice = tech05_RegPrice,
+            PromotionDescription = tech05_PromoDescription,
+            PromotionPrice = tech05_PromoPrice
         },
         new Product
         {
