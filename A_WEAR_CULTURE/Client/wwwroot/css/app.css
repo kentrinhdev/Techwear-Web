@@ -11,6 +11,51 @@
     font-family: 'SheepingCats-Regular';
     src: url('../fnt/SheepingCats-Regular.otf');
 }
+@font-face {
+    font-family: 'Sarpanch-Regular';
+    src: url('../fnt/Sarpanch-Regular.ttf');
+}
+@font-face {
+    font-family: 'Sarpanch-Bold';
+    src: url('../fnt/Sarpanch-Bold.ttf');
+}
+@font-face {
+    font-family: 'Sarpanch-ExtraBold';
+    src: url('../fnt/Sarpanch-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Sarpanch-Black';
+    src: url('../fnt/Sarpanch-Black.ttf');
+}
+@font-face {
+    font-family: 'Square7';
+    src: url('../fnt/Square7.ttf');
+}
+@font-face {
+    font-family: 'SquareHead';
+    src: url('../fnt/SquareHead.ttf');
+}
+@font-face {
+    font-family: 'Mechanismo';
+    src: url('../fnt/Mechanismo.otf');
+}
+@font-face {
+    font-family: 'trtl';
+    src: url('../fnt/trtl.ttf');
+}
+@font-face {
+    font-family: 'TypeOne';
+    src: url('../fnt/TypeOne.ttf');
+}
+@font-face {
+    font-family: 'UaSquare';
+    src: url('../fnt/UaSquare.ttf');
+}
+@font-face {
+    font-family: 'ForcedSquare';
+    src: url('../fnt/ForcedSquare.ttf');
+}
+
 
 html, body {
     font-family: 'Montserrat-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -95,7 +140,8 @@ app {
         }
 
         .sidebar .nav-item a {
-            color: #d7d7d7;
+            /*            color: #d7d7d7;*/
+            color: #090C0D;
             border-radius: 4px;
             height: 3rem;
             display: flex;
@@ -155,18 +201,37 @@ app {
 
 
 /* CUSTOM SETTINGS */
+.box-logo {
+    padding-left: 60px !important;
+}
+
 .img-logo {
     width: 120px;
     height: 30px;
 }
 
 .row-nav-text {
-    font-family: 'SheepingCats-Regular', 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1.5em;
-    background: -webkit-linear-gradient(40deg, #CD2F33, #5E0707);
+    font-family: 'Mechanismo', 'SheepingCats-Regular', 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    /*    background: -webkit-linear-gradient(40deg, #CD2F33, #5E0707);*/
+    /*    background: -webkit-linear-gradient(40deg, #CD2F33, crimson);*/
+    background: -webkit-linear-gradient(40deg, #FFFFFF, #F8F8FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 10px;
+}
+
+.row-nav-text-spacer {
+    background: -webkit-linear-gradient(40deg, #FFFFFF, #00B8FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
+}
+
+.row-nav-sub-text {
+    font-family: 'Square7', 'Sarpanch-ExtraBold', 'Mechanismo', 'SheepingCats-Regular', 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    padding-top: 22px;
 }
 
 .media-img-wrapper {
@@ -188,16 +253,19 @@ app {
 }
 
 .price {
-    color: #9ce62a;
+    font-size: 13px;
+    color: #F7F7F7;
+    /*    color: #9ce62a;*/
 }
 
 .strike-price {
+    font-size: 12px;
     text-decoration: line-through;
 }
 
 .text-discount {
     font-family: 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 13pt;
+    font-size: 13px;
     font-weight: bolder;
     font-style: italic;
     color: #FF0000;
@@ -210,13 +278,14 @@ app {
     gap: 50px;
 }
 
-/* CARDS FOR PRODUCTS */ 
+/* CARDS FOR PRODUCTS */
 .box-item {
     max-width: 100%;
     height: 90vh;
     padding-left: 15px;
-    padding-bottom: 915px;
-    border-radius: 10px;
+    /*    padding-bottom: 915px;*/
+    padding-bottom: 895px;
+    border-radius: 5px;
     border-bottom: 1px solid lightgrey;
     margin-bottom: 250px;
 }
@@ -224,7 +293,6 @@ app {
 .box-image {
     width: 100%;
     height: 70vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,8 +303,15 @@ app {
 }
 
 .tee-title {
-    font-family: 'SheepingCats-Regular', 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #04C3E6;
+    font-family: 'ForcedSquare','UaSquare','TypeOne','Square7','Sarpanch-ExtraBold','SquareHead','SheepingCats-Regular','Montserrat-Thin','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: 0px;
+    /*color: crimson;*/
+    /*color: #04C3E6; white */
+    /*color: #00F9FF; teal 01 */
+    /*color: #00E7EC; teal 02 */
+    color: #00b8ff;
 }
 
 .tee-title:hover {
@@ -252,12 +327,12 @@ app {
 }
 
 .sm-10-font {
-    font-size: 10pt;
+    font-size: 13px;
 }
 
 .sm-10-fancy-font {
     font-family: 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 10pt;
+    font-size: 13px;
     font-style: italic;
     padding-bottom: 10px;
     border-bottom: 1px solid lightgrey;
@@ -265,7 +340,7 @@ app {
 
 .sm-10-italic-font {
     font-family: 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 9pt;
+    font-size: 12px;
     font-style: italic;
     padding-left: 25px;
     padding-right: 25px;
@@ -325,5 +400,9 @@ app {
     .box-grid-container {
         grid-template-columns: 1fr;
         gap: 50px;
+    }
+
+    .box-item {
+        padding-bottom: 855px;
     }
 }

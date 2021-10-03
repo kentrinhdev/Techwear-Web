@@ -115,8 +115,9 @@ using A_WEAR_CULTURE.Shared;
     static string tech01_PromoDescription = $"{tech01_PromoPercentage}% Off {promoDescription}!";
 
     static string tech01_Desc =
-        "Design inspired by the abbreviated, stylized word for Technical Wear, " +
-        "mixed in with the stylized number, which is believed to be lucky in most parts of the world, " +
+        "Design inspired by the rise of Techwear in pop culture. In the distopian future, " +
+        "a bit of luck can mean life and death. " +
+        "The stylized number 07 is believed to be lucky in most parts of the world, " +
         "and the abbreviated version of the current meme trend that means something is 'Next Level', " +
         "could be interpreted as being " +
         "futuristic gothic fashion with trench coats, boots, and black clothing. " +
@@ -150,8 +151,10 @@ using A_WEAR_CULTURE.Shared;
     static string tech02_PromoDescription = $"{tech02_PromoPercentage}% Off {promoDescription}!";
 
     static string tech02_Desc =
-        "Design inspired by the abbreviated, stylized word for Technical Wear, " +
-        "merged with the distinctive pop culture spy-movie genre known for explosive and often dangerous action sequences. " +
+        "Design inspired by the iconic pop culture spy-movie genre known for its " +
+        "dangerous action sequences. The 'Double-00' agent code meshed " +
+        "with a stylization of the word 'DANGER' creates a unique design aesthetic, " +
+        "with a touch of the technical aspects of a dark distopia. " +
         "Techwear represents tactical, futuristic fashion that can be easily identified " +
         "by trench coats, boots, and black clothing that pervades deep into Pop Culture. " +
         "The alt style pays homage to the gritty urban dystopian future found in " +
@@ -175,7 +178,7 @@ using A_WEAR_CULTURE.Shared;
     static int tech03_CategoryID = 1;
     static string tech03_ImageURL = "img/TOX_105_AF.png";
     static string tech03_ProductName = "Toxic AF";
-    static string tech03_CodeName = "Codename: Techwear TOX_105_AF";
+    static string tech03_CodeName = "Codename: Techwear TOX-105-AF";
     static string tech03_ProductColor = base_Color;
     static decimal tech03_RegPrice = 29.99m;
     static decimal tech03_PromoRate = 0.17m;
@@ -209,7 +212,7 @@ using A_WEAR_CULTURE.Shared;
     static int tech04_CategoryID = 1;
     static string tech04_ImageURL = "img/CODX_12_21.png";
     static string tech04_ProductName = "Dead End";
-    static string tech04_CodeName = "Codename: Techwear COD-X-12-12";
+    static string tech04_CodeName = "Codename: Techwear COD-X-12-21";
     static string tech04_ProductColor = base_Color;
     static decimal tech04_RegPrice = 34.99m;
     static decimal tech04_PromoRate = 0.17m;
@@ -218,9 +221,9 @@ using A_WEAR_CULTURE.Shared;
     static string tech04_PromoDescription = $"{tech04_PromoPercentage}% Off {promoDescription}!";
 
     static string tech04_Desc =
-        "Design inspired by the abbreviated, stylized word for Technical Wear " +
-        "fused with the Maya Calendar and Codex, aka the Mayan Codex of Mexico " +
-        "previously known as the Grolier Codex. The 'End of World' would come December 21st. " +
+        "Design inspired by the Maya Calendar and Codex, aka the Mayan Codex of Mexico " +
+        "previously known as the Grolier Codex. According to pop culture myth, " +
+        "the 'End of World' is almost here predicted to come December 21st. " +
         "Techwear represents tactical, futuristic fashion that can be easily identified " +
         "by trench coats, boots, and black clothing that pervades deep into Pop Culture. " +
         "The alt style pays homage to the gritty urban dystopian future found in " +
@@ -278,7 +281,7 @@ using A_WEAR_CULTURE.Shared;
     {
         string shortIntro = "";
 
-        for (var i = 0; i < 26; i++)
+        for (var i = 0; i < 31; i++)
         {
             shortIntro += arrIntro[i] + " ";
         }
@@ -401,7 +404,7 @@ using A_WEAR_CULTURE.Shared;
         {
             ProductID = 8,
             CategoryID = 3,
-            ProductImage = "img/FI-82-RE.png",
+            ProductImage = "img/AKIRA-88.png",
             ProductName = "Tech Wear 01",
             CodeName = tech04_CodeName,
             ProductDesigner = productDesigner,

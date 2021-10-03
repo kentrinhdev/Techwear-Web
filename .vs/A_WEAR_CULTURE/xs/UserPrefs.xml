@@ -2,27 +2,24 @@
   <MonoDevelop.Ide.ItemProperties.A__WEAR__CULTURE.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="194" Column="1" IsPinned="True" />
-      <File FileName="A_WEAR_CULTURE/Client/wwwroot/css/app.css" Line="233" Column="1" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="146" Column="66" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/wwwroot/css/app.css" Line="298" Column="29" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Product.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Category.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="A_WEAR_CULTURE/Client/Shared/NavMenu.razor" Line="5" Column="21" />
-      <File FileName="A_WEAR_CULTURE/Client/Shared/MainLayout.razor" Line="11" Column="89" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/NavMenu.razor" Line="20" Column="35" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/MainLayout.razor" Line="11" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="A_WEAR_CULTURE" expanded="True">
             <Node name="A_WEAR_CULTURE.Client" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Pages" expanded="True" />
-              <Node name="Shared" expanded="True">
-                <Node name="ProductList.razor" selected="True" />
-              </Node>
+              <Node name="Shared" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True">
-                  <Node name="bootstrap" expanded="True" />
+                  <Node name="app.css" selected="True" />
                 </Node>
+                <Node name="fnt" expanded="True" />
                 <Node name="img" expanded="True" />
               </Node>
             </Node>
