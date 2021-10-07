@@ -90,7 +90,7 @@ using A_WEAR_CULTURE.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 50 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/NavMenu.razor"
+#line 44 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

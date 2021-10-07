@@ -55,6 +55,34 @@
     font-family: 'ForcedSquare';
     src: url('../fnt/ForcedSquare.ttf');
 }
+@font-face {
+    font-family: 'technoid';
+    src: url('../fnt/technoid.ttf');
+}
+@font-face {
+    font-family: 'Geo';
+    src: url('../fnt/Geo.ttf');
+}
+@font-face {
+    font-family: 'RationalInteger';
+    src: url('../fnt/RationalInteger.ttf');
+}
+@font-face {
+    font-family: 'Expansiva';
+    src: url('../fnt/Expansiva.otf');
+}
+@font-face {
+    font-family: 'ExpansivaBold';
+    src: url('../fnt/ExpansivaBold.otf');
+}
+@font-face {
+    font-family: 'ShuinSans';
+    src: url('../fnt/ShuinSans.otf');
+}
+@font-face {
+    font-family: 'Tibitto';
+    src: url('../fnt/Tibitto.ttf');
+}
 
 
 html, body {
@@ -203,11 +231,32 @@ app {
 /* CUSTOM SETTINGS */
 .box-logo {
     padding-left: 60px !important;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
 }
 
 .img-logo {
     width: 120px;
     height: 30px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+
+    transition: transform 0.2s;
+}
+
+.img-logo:hover {
+    filter: grayscale(0%);
+    filter: brightness(125%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    cursor: crosshair;
+
+    transform: scale(1.1);
+    background-blend-mode: luminosity;
 }
 
 .row-nav-text {
@@ -283,7 +332,7 @@ app {
     max-width: 100%;
     height: 90vh;
     padding-left: 15px;
-    /*    padding-bottom: 915px;*/
+    /*padding-bottom: 915px;*/
     padding-bottom: 895px;
     border-radius: 5px;
     border-bottom: 1px solid lightgrey;
@@ -303,9 +352,8 @@ app {
 }
 
 .tee-title {
-    font-family: 'ForcedSquare','UaSquare','TypeOne','Square7','Sarpanch-ExtraBold','SquareHead','SheepingCats-Regular','Montserrat-Thin','Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1.5em;
-    font-weight: 900;
+    font-family: 'Tibitto','ShuinSans','ExpansivaBold','RationalInteger','UaSquare','SquareHead','Geo','Sarpanch-ExtraBold','technoid','ForcedSquare','TypeOne','Square7','SheepingCats-Regular','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
     letter-spacing: 0px;
     /*color: crimson;*/
     /*color: #04C3E6; white */
@@ -346,6 +394,16 @@ app {
     padding-right: 25px;
     padding-bottom: 10px;
     border-bottom: 1px solid lightgrey;
+}
+
+.prod-desc-flip {
+    font-style: normal !important;
+    color: white;
+}
+
+.prod-desc-flip:hover {
+    text-decoration: none;
+    color: #00b8ff;
 }
 
 

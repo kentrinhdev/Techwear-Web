@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.ItemProperties.A__WEAR__CULTURE.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="146" Column="66" IsPinned="True" />
-      <File FileName="A_WEAR_CULTURE/Client/wwwroot/css/app.css" Line="298" Column="29" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="30" Column="97" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/wwwroot/css/app.css" Line="356" Column="19" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Product.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Category.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="A_WEAR_CULTURE/Client/Shared/NavMenu.razor" Line="20" Column="35" />
-      <File FileName="A_WEAR_CULTURE/Client/Shared/MainLayout.razor" Line="11" Column="60" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/NavMenu.razor" Line="32" Column="1" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/MainLayout.razor" Line="14" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
