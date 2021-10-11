@@ -90,14 +90,15 @@ using A_WEAR_CULTURE.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 69 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/ProductList.razor"
+#line 95 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/ProductList.razor"
  
+    //==========================================================
+
     // Product All Shared
     static string productDesigner = "designed by culture-A-wear";
-    static string promoDescription = "Labor Day Sale";
-    //static string   noPromoDesc = "NONE";
-    static decimal base_RegPrice = 24.99m;
     static string base_Color = "BLACK";
+    static decimal base_RegPrice = 24.99m;
+    static string promoDescription = "Labor Day Sale";
 
     //==========================================================
 
@@ -243,7 +244,7 @@ using A_WEAR_CULTURE.Shared;
     //==========================================================
 
     // Product 05
-    static int tech05_ProductID = 4;
+    static int tech05_ProductID = 5;
     static int tech05_CategoryID = 1;
     static string tech05_ImageURL = "img/FI-82-RE.png";
     static string tech05_ProductName = "Fire In Progress";
@@ -277,11 +278,51 @@ using A_WEAR_CULTURE.Shared;
 
     //==========================================================
 
+    public static bool flippedFront;
+    public static bool flippedBack;
+    public string errorMessage { get; set; }
+
+    public async void FlipMe(int i)
+    {
+        try
+        {
+            //flipped = !flipped;
+
+            flippedFront = await JSRuntime.InvokeAsync<bool>("isCardFrontFlipped", i);
+
+            if (!flippedFront)
+            {
+                await JSRuntime.InvokeAsync<object>("addClassToCardElement", i);
+            }
+            else
+            {
+                await JSRuntime.InvokeAsync<object>("removeClassToCardElement", i);
+            }
+
+
+            flippedBack = await JSRuntime.InvokeAsync<bool>("isCardBackFlipped", i);
+
+            if (!flippedBack)
+            {
+                await JSRuntime.InvokeAsync<object>("addClassToCardBack", i);
+            }
+            else
+            {
+                await JSRuntime.InvokeAsync<object>("removeClassToCardBack", i);
+            }
+        }
+        catch (JSException ex)
+        {
+            errorMessage = ex.Message;
+        }
+    }
+
     public static string shortensIntro(string[] arrIntro)
     {
         string shortIntro = "";
+        int numberOfWords = 31;
 
-        for (var i = 0; i < 31; i++)
+        for (var i = 0; i < numberOfWords; i++)
         {
             shortIntro += arrIntro[i] + " ";
         }
@@ -291,7 +332,7 @@ using A_WEAR_CULTURE.Shared;
 
 
     public static List<Product> products = new List<Product>
-    {
+{
         new Product
         {
             ProductID = tech01_ProductID,
@@ -435,6 +476,7 @@ using A_WEAR_CULTURE.Shared;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JSRuntime { get; set; }
     }
 }
 #pragma warning restore 1591

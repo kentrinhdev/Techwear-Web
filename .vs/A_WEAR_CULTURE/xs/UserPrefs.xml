@@ -2,28 +2,32 @@
   <MonoDevelop.Ide.ItemProperties.A__WEAR__CULTURE.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="30" Column="97" IsPinned="True" />
-      <File FileName="A_WEAR_CULTURE/Client/wwwroot/css/app.css" Line="356" Column="19" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/ProductList.razor" Line="50" Column="21" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/wwwroot/css/app.css" Line="290" Column="2" IsPinned="True" />
+      <File FileName="A_WEAR_CULTURE/Client/wwwroot/app.js" Line="66" Column="1" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Product.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Shared/Category.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="A_WEAR_CULTURE/Client/Shared/NavMenu.razor" Line="32" Column="1" />
-      <File FileName="A_WEAR_CULTURE/Client/Shared/MainLayout.razor" Line="14" Column="51" />
+      <File FileName="A_WEAR_CULTURE/Client/Shared/MainLayout.razor" Line="14" Column="78" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="A_WEAR_CULTURE" expanded="True">
             <Node name="A_WEAR_CULTURE.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
               <Node name="Shared" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True">
                   <Node name="app.css" selected="True" />
                 </Node>
-                <Node name="fnt" expanded="True" />
-                <Node name="img" expanded="True" />
               </Node>
             </Node>
-            <Node name="A_WEAR_CULTURE.Server" expanded="True" />
+            <Node name="A_WEAR_CULTURE.Server" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
             <Node name="A_WEAR_CULTURE.Shared" expanded="True" />
           </Node>
         </State>

@@ -20,9 +20,11 @@
   <ItemGroup>
     <Content Remove="wwwroot\img\" />
     <Content Remove="wwwroot\fnt\" />
+    <Content Remove="wwwroot\jvs\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\fnt\" />
+    <Folder Include="wwwroot\jvs\" />
   </ItemGroup>
 </Project>

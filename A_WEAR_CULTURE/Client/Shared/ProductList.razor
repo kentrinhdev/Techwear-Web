@@ -1,78 +1,105 @@
-﻿
-<ul class="list-unstyled box-grid-container">
-    @foreach (var product in products)
-    {
-        <li class="box-item">
+﻿@inject IJSRuntime JSRuntime;
 
+<ul class="list-unstyled box-grid-container" id="master-box-card">
+    @for (var i=0; i < products.Count; i++)
+    {
+        var flipLinkNumber = i + 1;
+
+        <li class="box-item card-flip" id="productID_@products[i].ProductID" >
             <div class="box-image">
-                <a href="/product/@product.ProductID">
-                    <img class="media-img" src="@product.ProductImage" alt="@product.ProductName" />
+                <a href="/product/@products[i].ProductID">
+                    <img class="media-img" src="@products[i].ProductImage" alt="@products[i].ProductName" />
                 </a>
             </div>
 
             <div class="media-body">
-                <a href="/product/@product.ProductID" class="hover-no-underline">
+                <a href="/product/@products[i].ProductID" class="hover-no-underline">
                     <h4 class=" tee-title">
-                        @product.ProductName
+                        @products[i].ProductName
                     </h4>
                 </a>
 
                 <h6 class="sm-10-font">
-                    @product.CodeName
+                    @products[i].CodeName
                 </h6>
 
                 <h6 class="sm-10-fancy-font">
-                    @product.ProductDesigner
+                    @products[i].ProductDesigner
                 </h6>
 
                 <p class="sm-10-italic-font">
 
-                    @product.ProductDescription . . . <a class="prod-desc-flip" href="">FLIP</a>
+                    @products[i].ProductDescription . . .
 
+                    <p class="text-align-right">
+                        <a class="prod-desc-flip" @onclick="@(() => FlipMe(flipLinkNumber))" href="">FLIP OVER</a>
+                    </p>
                 </p>
 
-                @if (product.PromotionPrice == 0 || product.PromotionPrice == product.ProductPrice)
+                @if (products[i].PromotionPrice == 0 || products[i].PromotionPrice == products[i].ProductPrice)
                 {
                     // Regular Pricing
                     <h6 class="text-muted price">
                         Exclusive
                     </h6>
 
-                    <h5 class="price">
-                        $ @product.ProductPrice
+                    <h5 class="price bottom-spacing">
+                        $ @products[i].ProductPrice
                     </h5>
-
-                    <h6 class="text-muted price">
-                        &nbsp;
-                    </h6>
                 }
                 else
                 {
                     // Promotional Pricing
                     <h6 class="text-muted strike-price">
-                        $ @product.ProductPrice
+                        $ @products[i].ProductPrice
                     </h6>
 
-                    <h5 class="price">
-                        $ @product.PromotionPrice &nbsp; <span class="text-discount">@product.PromotionDescription</span>
+                    <h5 class="price bottom-spacing">
+                        $ @products[i].PromotionPrice &nbsp; <span class="text-discount">@products[i].PromotionDescription</span>
                     </h5>
                 }
             </div>
-
         </li>
 
+        <li class="box-item card-flip back card-is-flipped" id="productID-back_@products[i].ProductID">
+            <div class="media-body">
+                <a href="/product/@products[i].ProductID" class="hover-no-underline">
+                    <h4 class="tee-title card-back-title">
+                        @products[i].ProductName
+                    </h4>
+                </a>
+
+                <h6 class="sm-10-font">
+                    @products[i].CodeName
+                </h6>
+
+                <h6 class="sm-10-fancy-font">
+                    @products[i].ProductDesigner
+                </h6>
+
+                <p class="sm-10-italic-font back-text">
+
+                    @products[i].ProductDescription.
+
+                    <p class="text-align-right">
+                        <a class="prod-desc-flip flip-link-back-text" @onclick="@(() => FlipMe(flipLinkNumber))" href="">FLIP BACK</a>
+                    </p>
+                </p>
+            </div>
+        </li>
     }
 </ul>
 
 
 @code
 {
+    //==========================================================
+
     // Product All Shared
     static string productDesigner = "designed by culture-A-wear";
-    static string promoDescription = "Labor Day Sale";
-    //static string   noPromoDesc = "NONE";
-    static decimal base_RegPrice = 24.99m;
     static string base_Color = "BLACK";
+    static decimal base_RegPrice = 24.99m;
+    static string promoDescription = "Labor Day Sale";
 
     //==========================================================
 
@@ -218,7 +245,7 @@
     //==========================================================
 
     // Product 05
-    static int tech05_ProductID = 4;
+    static int tech05_ProductID = 5;
     static int tech05_CategoryID = 1;
     static string tech05_ImageURL = "img/FI-82-RE.png";
     static string tech05_ProductName = "Fire In Progress";
@@ -252,11 +279,51 @@
 
     //==========================================================
 
+    public static bool flippedFront;
+    public static bool flippedBack;
+    public string errorMessage { get; set; }
+
+    public async void FlipMe(int i)
+    {
+        try
+        {
+            //flipped = !flipped;
+
+            flippedFront = await JSRuntime.InvokeAsync<bool>("isCardFrontFlipped", i);
+
+            if (!flippedFront)
+            {
+                await JSRuntime.InvokeAsync<object>("addClassToCardElement", i);
+            }
+            else
+            {
+                await JSRuntime.InvokeAsync<object>("removeClassToCardElement", i);
+            }
+
+
+            flippedBack = await JSRuntime.InvokeAsync<bool>("isCardBackFlipped", i);
+
+            if (!flippedBack)
+            {
+                await JSRuntime.InvokeAsync<object>("addClassToCardBack", i);
+            }
+            else
+            {
+                await JSRuntime.InvokeAsync<object>("removeClassToCardBack", i);
+            }
+        }
+        catch (JSException ex)
+        {
+            errorMessage = ex.Message;
+        }
+    }
+
     public static string shortensIntro(string[] arrIntro)
     {
         string shortIntro = "";
+        int numberOfWords = 31;
 
-        for (var i = 0; i < 31; i++)
+        for (var i = 0; i < numberOfWords; i++)
         {
             shortIntro += arrIntro[i] + " ";
         }
@@ -266,7 +333,7 @@
 
 
     public static List<Product> products = new List<Product>
-    {
+{
         new Product
         {
             ProductID = tech01_ProductID,
