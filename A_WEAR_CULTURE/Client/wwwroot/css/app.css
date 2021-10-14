@@ -281,21 +281,93 @@ app {
 }
 
 .text-color-change {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
+    font-family: 'Square7', 'Sarpanch-ExtraBold', 'Mechanismo', 'SheepingCats-Regular', 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+    color: white;
 
-    -webkit-animation: colorchange 20s infinite alternate;
+    padding-top: 0px;
+
+    background: -webkit-linear-gradient(40deg, #FFFFFF, #F8F8FF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    visibility: visible;
+    -webkit-animation: animate 7s linear infinite both;
+    -moz-animation: animate 7s linear infinite both;
+    -o-animation: animate 7s linear infinite both;
+    -ms-animation: animate 7s linear infinite both;
+    animation: animate 7s linear infinite both;
+
+    display: inline-block;
 }
 
-@-webkit-keyframes colorchange {
-    0% {
-        color: blue;
+@-webkit-keyframes animate {
+    0%, 40%, 100% {
+        color: white;
+        letter-spacing: initial;
+        opacity: 1;
     }
 
-    10% {
-        color: #8e44ad;
+    50%, 90% {
+        color: white;
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes animate {
+    0%, 40%, 100% {
+        color: white;
+        letter-spacing: initial;
+        opacity: 1;
+    }
+
+    50%, 90% {
+        color: white;
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes animate {
+    0%, 40%, 100% {
+        color: white;
+        letter-spacing: initial;
+        opacity: 1;
+    }
+
+    50%, 90% {
+        color: white;
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+}
+
+@-o-keyframes animate {
+    0%, 40%, 100% {
+        color: white;
+        letter-spacing: initial;
+        opacity: 1;
+    }
+
+    50%, 90% {
+        color: white;
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+}
+
+@keyframes animate {
+    0%, 40%, 100% {
+        color: white;
+        letter-spacing: initial;
+        opacity: 1;
+    }
+
+    50%, 90% {
+        color: white;
+        letter-spacing: -0.5em;
+        opacity: 0;
     }
 }
 /* ========================================================================= */
@@ -318,11 +390,14 @@ app {
 }
 
 .media-img {
-    max-width: 550px;
-    max-height: 900px;
+    /*    max-width: 550px;*/
+    max-width: 100%;
+    max-height: 600px;
+/*    max-height: 900px;*/
     margin-bottom: 10px;
     border-radius: 6px;
     transition: transform 0.2s;
+    border: 1px dashed blue;
 }
 
 .media-img:hover {
@@ -342,11 +417,10 @@ app {
 
 .text-discount {
     font-family: 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-size: 1em;
     font-weight: bolder;
-    font-style: italic;
-    color: #FF0000;
-    
+    /*    font-style: italic;*/
+    color: #00FFFF;
 }
 
 
@@ -519,63 +593,6 @@ app {
 
 /* END CARD FLIP */
 
-.fade-in {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 
 
 

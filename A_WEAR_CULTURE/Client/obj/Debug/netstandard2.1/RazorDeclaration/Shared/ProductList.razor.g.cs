@@ -98,7 +98,7 @@ using A_WEAR_CULTURE.Shared;
     static string productDesigner = "designed by culture-A-wear";
     static string base_Color = "BLACK";
     static decimal base_RegPrice = 24.99m;
-    static string promoDescription = "Labor Day Sale";
+    static string promoDescription = "Halloween Sale";
 
     //==========================================================
 
@@ -116,7 +116,7 @@ using A_WEAR_CULTURE.Shared;
     static string tech01_PromoDescription = $"{tech01_PromoPercentage}% Off {promoDescription}!";
 
     static string tech01_Desc =
-        "Design inspired by the rise of Techwear in pop culture. In the distopian future, " +
+        $"Design inspired by the rise of Techwear in pop culture. In the distopian future, " +
         "a bit of luck can mean life and death. " +
         "The stylized number 07 is believed to be lucky in most parts of the world, " +
         "and the abbreviated version of the current meme trend that means something is 'Next Level', " +
@@ -127,10 +127,11 @@ using A_WEAR_CULTURE.Shared;
         "Aeon Flux, Akira, and Ghost in the Shell. It became a full-fledged fashion genre " +
         "in the late 1980s and " +
         "continues to increase in popularity as the reality we are living in inches closer " +
-        "to the dystopia in films. \n\n \n" +
+        "to the dystopia in films." +
+        "<br><br>" +
 
-        "+ Designed and Printed in the U.S.A. \n" +
-        "+ Blacked-Out | Ribbed Collar | High-Quality Tee \n" +
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
         "+ Material: 100% Ringspun Cotton";
 
     static string[] tech01_ProductIntro = tech01_Desc.Split(' ');
@@ -163,10 +164,11 @@ using A_WEAR_CULTURE.Shared;
         "Aeon Flux, Akira, and Ghost in the Shell. It became a full-fledged fashion genre " +
         "in the late 1980s and " +
         "continues to increase in popularity as the reality we are living in inches closer " +
-        "to the dystopia in films. \n\n \n" +
+        "to the dystopia in films." +
+        "<br><br>" +
 
-        "+ Designed and Printed in the U.S.A. \n" +
-        "+ Blacked-Out | Ribbed Collar | High-Quality Tee \n" +
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
         "+ Material: 100% Ringspun Cotton";
 
     static string[] tech02_ProductIntro = tech02_Desc.Split(' ');
@@ -197,10 +199,11 @@ using A_WEAR_CULTURE.Shared;
         "Aeon Flux, Akira, and Ghost in the Shell. It became a full-fledged fashion genre " +
         "in the late 1980s and " +
         "continues to increase in popularity as the reality we are living in inches closer " +
-        "to the dystopia in films. \n\n \n" +
+        "to the dystopia in films." +
+        "<br><br>" +
 
-        "+ Designed and Printed in the U.S.A. \n" +
-        "+ Blacked-Out | Ribbed Collar | High-Quality Tee \n" +
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
         "+ Material: 100% Ringspun Cotton";
 
     static string[] tech03_ProductIntro = tech03_Desc.Split(' ');
@@ -232,10 +235,11 @@ using A_WEAR_CULTURE.Shared;
         "Aeon Flux, Akira, and Ghost in the Shell. It became a full-fledged fashion genre " +
         "in the late 1980s and " +
         "continues to increase in popularity as the reality we are living in inches closer " +
-        "to the dystopia in films. \n\n \n" +
+        "to the dystopia in films." +
+        "<br><br>" +
 
-        "+ Designed and Printed in the U.S.A. \n" +
-        "+ Blacked-Out | Ribbed Collar | High-Quality Tee \n" +
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
         "+ Material: 100% Ringspun Cotton";
 
     static string[] tech04_ProductIntro = tech04_Desc.Split(' ');
@@ -267,14 +271,128 @@ using A_WEAR_CULTURE.Shared;
         "Aeon Flux, Akira, and Ghost in the Shell. It became a full-fledged fashion genre " +
         "in the late 1980s and " +
         "continues to increase in popularity as the reality we are living in inches closer " +
-        "to the dystopia in films. \n\n \n" +
+        "to the dystopia in films." +
+        "<br><br>" +
 
-        "+ Designed and Printed in the U.S.A. \n" +
-        "+ Blacked-Out | Ribbed Collar | High-Quality Tee \n" +
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
         "+ Material: 100% Ringspun Cotton";
 
     static string[] tech05_ProductIntro = tech05_Desc.Split(' ');
     static string tech05_shortIntro = shortensIntro(tech05_ProductIntro);
+
+    //==========================================================
+
+    // Product 06
+    static int tech06_ProductID = 6;
+    static int tech06_CategoryID = 1;
+    static string tech06_ImageURL = "img/HAL-2021-SPDR.png";
+    static string tech06_ProductName = "Spooky Spider Slither";
+    static string tech06_CodeName = "Codename: HALLOWEEN-2021-SPDR";
+    static string tech06_ProductColor = base_Color;
+    static decimal tech06_RegPrice = 34.99m;
+    static decimal tech06_PromoRate = 0.10m;
+    static decimal tech06_PromoPrice = decimal.Round(tech06_RegPrice - (tech06_RegPrice * tech06_PromoRate), 2, MidpointRounding.AwayFromZero);
+    static decimal tech06_PromoPercentage = decimal.Round(tech06_PromoRate * 100, 0, MidpointRounding.AwayFromZero);
+    static string tech06_PromoDescription = $"{tech06_PromoPercentage}% Off {promoDescription}!";
+
+    static string tech06_Desc =
+        "Design inspired by the Day of the Dead holiday motifs, notably scary spiders. " +
+        "Halloween cobwebs are instantly recognizable historically in pop culture. " +
+        "Since the 16th century, when the Spaniards arrived in central Mexico about 3,000 years ago, " +
+        "the Aztecs were forced to adopt, what was thought of at the time to be sacrilegious, " +
+        "the spooky tradition. " +
+        "Over time, the main reason that spiders are linked with Halloween is their connection with " +
+        "witches. Spiders, along with black cats and rats were believed to be evil companions of " +
+        "witches in medieval times. " +
+        "To add to this, the iconic landmarks associated with Halloween such as " +
+        "haunted houses, graveyards, dungeons and creepy caves, all come fully stocked with an array of " +
+        "spiders and spider webs. This is because, generally, spiders prefer to dwell in dark places. " +
+        "On top of the scary connotations of spiders, in many countries around the world spiders were regarded " +
+        "as mystical creatures due to their web-making abilities! In folklore, they are described as " +
+        "storytellers and oracles of fate, wealth, and sometimes death." +
+        "<br><br>" +
+
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
+        "+ Material: 100% Ringspun Cotton";
+
+    static string[] tech06_ProductIntro = tech06_Desc.Split(' ');
+    static string tech06_shortIntro = shortensIntro(tech06_ProductIntro);
+
+    // Product 07
+    static int tech07_ProductID = 7;
+    static int tech07_CategoryID = 1;
+    static string tech07_ImageURL = "img/HAL-21-BATT.png";
+    static string tech07_ProductName = "Bloody Bat Biter";
+    static string tech07_CodeName = "Codename: HALLOWEEN-2021-BATT";
+    static string tech07_ProductColor = base_Color;
+    static decimal tech07_RegPrice = 35.99m;
+    static decimal tech07_PromoRate = 0.12m;
+    static decimal tech07_PromoPrice = decimal.Round(tech07_RegPrice - (tech07_RegPrice * tech07_PromoRate), 2, MidpointRounding.AwayFromZero);
+    static decimal tech07_PromoPercentage = decimal.Round(tech07_PromoRate * 100, 0, MidpointRounding.AwayFromZero);
+    static string tech07_PromoDescription = $"{tech07_PromoPercentage}% Off {promoDescription}!";
+
+    static string tech07_Desc =
+        "Design inspired by the spookiest and most enduring images of Halloween, BATS. " +
+        "During the horrific holiday season, bats are placed firmly deep into pop culture. " +
+        "Made popular by the vampire fiction Bram Stoker's 1897 novel 'Dracula' where " +
+        "Vampires can turn into bats at will. Taken from the book, '... thought it well to know " +
+        "if possible where the Count would go when he left the house. I did not see him, " +
+        "but I saw a bat rise from Renfield's window and flap westward.' " +
+        "The black, winged shapes flying through the dusky night sky are eternally linked to Halloween. " +
+        "It may have started long ago, when the ancient Celtics lit large bonfires as " +
+        "darkness approached to ward off the evil spirits of the night. According to the legends, " +
+        "the Celtics believed the ghosts of their ancestors returned to earth once each year on " +
+        "the night of October 31st when the spirits of the dead could cross over into the world of the living. " +
+        "For centuries, tales and rumors of blood-sucking bats spread throughout Europe. " +
+        "The evil images of a winged demon stalked the night to prey on the blood of " +
+        "unsuspecting victims while they slept, fit perfectly into the dark lore of Halloween." +
+        "<br><br>" +
+
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
+        "+ Material: 100% Ringspun Cotton";
+
+    static string[] tech07_ProductIntro = tech07_Desc.Split(' ');
+    static string tech07_shortIntro = shortensIntro(tech07_ProductIntro);
+
+    // Product 08
+    static int tech08_ProductID = 8;
+    static int tech08_CategoryID = 1;
+    static string tech08_ImageURL = "img/HAL-2021-HOUS.png";
+    static string tech08_ProductName = "Horribly Haunted House";
+    static string tech08_CodeName = "Codename: HALLOWEEN-2021-HOUS";
+    static string tech08_ProductColor = base_Color;
+    static decimal tech08_RegPrice = 30.49m;
+    static decimal tech08_PromoRate = 0.19m;
+    static decimal tech08_PromoPrice = decimal.Round(tech08_RegPrice - (tech08_RegPrice * tech08_PromoRate), 2, MidpointRounding.AwayFromZero);
+    static decimal tech08_PromoPercentage = decimal.Round(tech08_PromoRate * 100, 0, MidpointRounding.AwayFromZero);
+    static string tech08_PromoDescription = $"{tech08_PromoPercentage}% Off {promoDescription}!";
+
+    static string tech08_Desc =
+        "Design inspired by Haunted Houses, Spook Houses or Ghost Houses. " +
+        "Burned into pop culture's mind and made famous by The Amityville Horror, a 1977 cult classic. " +
+        "Made popular by the vampire fiction Bram Stoker's 1897 novel 'Dracula' where " +
+        "Vampires can turn into bats at will. Taken from the book, '... thought it well to know " +
+        "if possible where the Count would go when he left the house. I did not see him, " +
+        "but I saw a bat rise from Renfield's window and flap westward.' " +
+        "The black, winged shapes flying through the dusky night sky are eternally linked to Halloween. " +
+        "It may have started long ago, when the ancient Celtics lit large bonfires as " +
+        "darkness approached to ward off the evil spirits of the night. According to the legends, " +
+        "the Celtics believed the ghosts of their ancestors returned to earth once each year on " +
+        "the night of October 31st when the spirits of the dead could cross over into the world of the living. " +
+        "For centuries, tales and rumors of blood-sucking bats spread throughout Europe. " +
+        "The evil images of a winged demon stalked the night to prey on the blood of " +
+        "unsuspecting victims while they slept, fit perfectly into the dark lore of Halloween." +
+        "<br><br>" +
+
+        "+ Designed and Printed in the U.S.A. <br>" +
+        "+ Blacked-Out | Ribbed Collar | High-Quality Tee <br>" +
+        "+ Material: 100% Ringspun Cotton";
+
+    static string[] tech08_ProductIntro = tech08_Desc.Split(' ');
+    static string tech08_shortIntro = shortensIntro(tech08_ProductIntro);
 
     //==========================================================
 
@@ -317,6 +435,7 @@ using A_WEAR_CULTURE.Shared;
         }
     }
 
+    //Product Description on the Card Front needs to be shortened 
     public static string shortensIntro(string[] arrIntro)
     {
         string shortIntro = "";
@@ -330,9 +449,9 @@ using A_WEAR_CULTURE.Shared;
         return shortIntro;
     }
 
-
+    //List of products
     public static List<Product> products = new List<Product>
-{
+    {
         new Product
         {
             ProductID = tech01_ProductID,
@@ -342,6 +461,7 @@ using A_WEAR_CULTURE.Shared;
             CodeName = tech01_CodeName,
             ProductDesigner = productDesigner,
             ProductDescription = tech01_shortIntro,
+            ProductDescriptionFull = tech01_Desc,
             ProductColor = tech01_ProductColor,
             ProductPrice = tech01_RegPrice,
             PromotionDescription = tech01_PromoDescription,
@@ -356,6 +476,7 @@ using A_WEAR_CULTURE.Shared;
             CodeName = tech02_CodeName,
             ProductDesigner = productDesigner,
             ProductDescription = tech02_shortIntro,
+            ProductDescriptionFull = tech02_Desc,
             ProductColor = tech02_ProductColor,
             ProductPrice = tech02_RegPrice,
             PromotionDescription = tech02_PromoDescription,
@@ -370,6 +491,7 @@ using A_WEAR_CULTURE.Shared;
             CodeName = tech03_CodeName,
             ProductDesigner = productDesigner,
             ProductDescription = tech03_shortIntro,
+            ProductDescriptionFull = tech03_Desc,
             ProductColor = tech03_ProductColor,
             ProductPrice = tech03_RegPrice,
             PromotionDescription = tech03_PromoDescription,
@@ -384,6 +506,7 @@ using A_WEAR_CULTURE.Shared;
             CodeName = tech04_CodeName,
             ProductDesigner = productDesigner,
             ProductDescription = tech04_shortIntro,
+            ProductDescriptionFull = tech04_Desc,
             ProductColor = tech04_ProductColor,
             ProductPrice = tech04_RegPrice,
             PromotionDescription = tech04_PromoDescription,
@@ -398,6 +521,7 @@ using A_WEAR_CULTURE.Shared;
             CodeName = tech05_CodeName,
             ProductDesigner = productDesigner,
             ProductDescription = tech05_shortIntro,
+            ProductDescriptionFull = tech05_Desc,
             ProductColor = tech05_ProductColor,
             ProductPrice = tech05_RegPrice,
             PromotionDescription = tech05_PromoDescription,
@@ -405,70 +529,48 @@ using A_WEAR_CULTURE.Shared;
         },
         new Product
         {
-            ProductID = 6,
-            CategoryID = 3,
-            ProductImage = "https://www.apemockups.com/wp-content/uploads/edd/2017/07/free-t-shirt-mockup-1000x683.jpg.webp",
-            ProductName = "Tech Wear 01",
-            CodeName = tech02_CodeName,
+            ProductID = tech06_ProductID,
+            CategoryID = tech06_CategoryID,
+            ProductImage = tech06_ImageURL,
+            ProductName = tech06_ProductName,
+            CodeName = tech06_CodeName,
             ProductDesigner = productDesigner,
-            ProductDescription = "It is the abbreviated, stylized word for technical wear. It's urban apparel that" +
-                                 " uses high-quality fabrics, and technical detailing to create a product that can" +
-                                 " stand up to the elements. The techwear aesthetic is heavily influenced by" +
-                                 " futurist artistic styles such as cyberpunk (think Blade Runner or Ghost in the" +
-                                 " Shell). In execution, most techwear falls into one of two categories: GREY" +
-                                 " (sleek, understated, the amplified familiar) or BLACK" +
-                                 " (striking, military-inspired, the future circa 1985).",
-            ProductColor = "BLACK",
-            ProductPrice = tech01_RegPrice,
-            PromotionDescription = promoDescription,
-            PromotionPrice = tech01_PromoPrice
+            ProductDescription = tech06_shortIntro,
+            ProductDescriptionFull = tech06_Desc,
+            ProductColor = tech06_ProductColor,
+            ProductPrice = tech06_RegPrice,
+            PromotionDescription = tech06_PromoDescription,
+            PromotionPrice = tech06_PromoPrice
         },
         new Product
         {
-            ProductID = 7,
-            CategoryID = 2,
-            ProductImage = "img/07_AF.png",
-            ProductName = "Creature of the Black Lagoon",
-            CodeName = tech03_CodeName,
+            ProductID = tech07_ProductID,
+            CategoryID = tech07_CategoryID,
+            ProductImage = tech07_ImageURL,
+            ProductName = tech07_ProductName,
+            CodeName = tech07_CodeName,
             ProductDesigner = productDesigner,
-            ProductDescription = "Creature from the Black Lagoon is a 1954 American black-and-white 3D monster horror" +
-                                 " film from Universal-International, produced by William Alland, directed by" +
-                                 " Jack Arnold, and starring Richard Carlson, Julie Adams, Richard Denning, Antonio" +
-                                 " Moreno, Nestor Paiva, and Whit Bissell. The Creature was played by Ben Chapman on" +
-                                 " land and by Ricou Browning underwater.",
-            ProductColor = "BLACK",
-            ProductPrice = 39.99m,
-            PromotionDescription = "NONE",
-            PromotionPrice = 0.00m
+            ProductDescription = tech07_shortIntro,
+            ProductDescriptionFull = tech07_Desc,
+            ProductColor = tech07_ProductColor,
+            ProductPrice = tech07_RegPrice,
+            PromotionDescription = tech07_PromoDescription,
+            PromotionPrice = tech07_PromoPrice
         },
         new Product
         {
-            ProductID = 8,
-            CategoryID = 3,
-            ProductImage = "img/AKIRA-88.png",
-            ProductName = "Tech Wear 01",
-            CodeName = tech04_CodeName,
+            ProductID = tech08_ProductID,
+            CategoryID = tech08_CategoryID,
+            ProductImage = tech08_ImageURL,
+            ProductName = tech08_ProductName,
+            CodeName = tech08_CodeName,
             ProductDesigner = productDesigner,
-            ProductDescription = "Design inspired by Mary Shelley's 1818 novel that tells a story of Dr. " +
-                                "Frankenstein. Since the publication of the novel, the name Frankenstein " +
-                                "has been wrongly used to refer to the monster, rather than his creator. Further " +
-                                "inspired by the 1931 American science fiction horror film directed by James Whale, " +
-                                "starring Colin Clive as Henry Frankenstein, an obsessed scientist who digs up " +
-                                "corpses with his assistant in order to assemble a living being from body parts " +
-                                "to create a sapient monster often known as Frankenstein's monster, played by " +
-                                "Boris Karloff, despite its grotesque form, seems to be " +
-                                "an innocent, childlike creation." +
-                                "It is the abbreviated, stylized word for technical wear. It's urban apparel that" +
-                                 " uses high-quality fabrics, and technical detailing to create a product that can" +
-                                 " stand up to the elements. The techwear aesthetic is heavily influenced by" +
-                                 " futurist artistic styles such as cyberpunk (think Blade Runner or Ghost in the" +
-                                 " Shell). In execution, most techwear falls into one of two categories: GREY" +
-                                 " (sleek, understated, the amplified familiar) or BLACK" +
-                                 " (striking, military-inspired, the future circa 1985).",
-            ProductColor = "BLACK",
-            ProductPrice = tech01_RegPrice,
-            PromotionDescription = promoDescription,
-            PromotionPrice = tech01_PromoPrice
+            ProductDescription = tech08_shortIntro,
+            ProductDescriptionFull = tech08_Desc,
+            ProductColor = tech08_ProductColor,
+            ProductPrice = tech08_RegPrice,
+            PromotionDescription = tech08_PromoDescription,
+            PromotionPrice = tech08_PromoPrice
         }
 
     };

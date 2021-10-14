@@ -11,6 +11,7 @@ namespace A_WEAR_CULTURE.Shared
         public string       CodeName { get; set; }
         public string       ProductDesigner { get; set; }
         public string       ProductDescription { get; set; }
+        public string       ProductDescriptionFull { get; set; }
         public string       ProductColor { get; set; }
         public decimal      ProductPrice { get; set; }
         public string       PromotionDescription { get; set; }
