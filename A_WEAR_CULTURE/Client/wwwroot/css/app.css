@@ -95,6 +95,8 @@ html, body {
     font-family: 'Montserrat-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #F7F7F7;
     background-color: #090C0D;
+
+    scroll-behavior: smooth;
 }
 
 a, .btn-link {
@@ -117,6 +119,7 @@ app {
     height: 3.5rem;
     display: flex;
     align-items: center;
+    z-index: 999;
 }
 
 .main {
@@ -171,8 +174,7 @@ app {
         }
 
         .sidebar .nav-item a {
-            /*            color: #d7d7d7;*/
-            color: #090C0D;
+            color: white;
             border-radius: 4px;
             height: 3rem;
             display: flex;
@@ -186,7 +188,7 @@ app {
             }
 
             .sidebar .nav-item a:hover {
-                background-color: rgba(255,255,255,0.1);
+                background-color: #00b8ff;
                 color: white;
             }
 
@@ -374,7 +376,6 @@ app {
 .box-grid-container {
     display: grid;
     grid-template-columns: 6fr 6fr;
-    /*    grid-template-rows: 1px 10vh 10vh 10vh;*/
     grid-gap: 0px 50px;
     grid-template-areas:
         "product_01 product_02"
@@ -390,14 +391,18 @@ app {
 }
 
 .media-img {
-    /*    max-width: 550px;*/
     max-width: 100%;
     max-height: 600px;
-/*    max-height: 900px;*/
     margin-bottom: 10px;
     border-radius: 6px;
     transition: transform 0.2s;
-    border: 1px dashed blue;
+
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
 }
 
 .media-img:hover {
@@ -419,7 +424,6 @@ app {
     font-family: 'Montserrat-Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1em;
     font-weight: bolder;
-    /*    font-style: italic;*/
     color: #00FFFF;
 }
 
@@ -592,6 +596,53 @@ app {
 }
 
 /* END CARD FLIP */
+
+
+.box-btn-scrolltotop {
+/*    text-align: center;*/
+height: 100%;
+border: 1px dashed red;
+}
+
+#myBtn {
+    width: 40px;
+    height: 60px;
+
+    font-size: 12px;
+    color: #00B8FF;
+    background-color: white;
+
+    padding-right: 5px;
+    left: 55.7%;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+
+    cursor: pointer; /* Add a mouse pointer on hover */
+
+    text-align: center;
+    border-radius: 5px;
+}
+
+    #myBtn:hover {
+        color: white;
+        background-color: #00B8FF;
+    }
+
+.negative-margin {
+    margin-bottom: -150px;
+}
+
+.footer-style {
+    color: ghostwhite;
+}
+
+.footer-style:hover {
+    text-decoration: none;
+}
 
 
 

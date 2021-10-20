@@ -90,7 +90,7 @@ using A_WEAR_CULTURE.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 95 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/ProductList.razor"
+#line 206 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/ProductList.razor"
  
     //==========================================================
 
@@ -105,7 +105,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 01
     static int tech01_ProductID = 1;
     static int tech01_CategoryID = 1;
-    static string tech01_ImageURL = "img/07_AF.png";
+    static string tech01_ImageURL = "img/tee_01/snap_01.png";
     static string tech01_ProductName = "Lucky AF";
     static string tech01_CodeName = "Codename: Techwear 07-AF";
     static string tech01_ProductColor = base_Color;
@@ -142,7 +142,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 02
     static int tech02_ProductID = 2;
     static int tech02_CategoryID = 1;
-    static string tech02_ImageURL = "img/00_DANG_37.png";
+    static string tech02_ImageURL = "img/tee_02/snap_01.png";
     static string tech02_ProductName = "Danger Agent";
     static string tech02_CodeName = "Codename: Techwear 00-DANG-37";
     static string tech02_ProductColor = base_Color;
@@ -179,7 +179,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 03
     static int tech03_ProductID = 3;
     static int tech03_CategoryID = 1;
-    static string tech03_ImageURL = "img/TOX_105_AF.png";
+    static string tech03_ImageURL = "img/tee_03/snap_01.png";
     static string tech03_ProductName = "Toxic AF";
     static string tech03_CodeName = "Codename: Techwear TOX-105-AF";
     static string tech03_ProductColor = base_Color;
@@ -214,7 +214,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 04
     static int tech04_ProductID = 4;
     static int tech04_CategoryID = 1;
-    static string tech04_ImageURL = "img/CODX_12_21.png";
+    static string tech04_ImageURL = "img/tee_04/snap_01.png";
     static string tech04_ProductName = "Dead End";
     static string tech04_CodeName = "Codename: Techwear COD-X-12-21";
     static string tech04_ProductColor = base_Color;
@@ -250,7 +250,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 05
     static int tech05_ProductID = 5;
     static int tech05_CategoryID = 1;
-    static string tech05_ImageURL = "img/FI-82-RE.png";
+    static string tech05_ImageURL = "img/tee_05/snap_01.png";
     static string tech05_ProductName = "Fire In Progress";
     static string tech05_CodeName = "Codename: Techwear FI-82-RE";
     static string tech05_ProductColor = base_Color;
@@ -286,7 +286,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 06
     static int tech06_ProductID = 6;
     static int tech06_CategoryID = 1;
-    static string tech06_ImageURL = "img/HAL-2021-SPDR.png";
+    static string tech06_ImageURL = "img/tee_06/snap_01.png";
     static string tech06_ProductName = "Spooky Spider Slither";
     static string tech06_CodeName = "Codename: HALLOWEEN-2021-SPDR";
     static string tech06_ProductColor = base_Color;
@@ -323,7 +323,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 07
     static int tech07_ProductID = 7;
     static int tech07_CategoryID = 1;
-    static string tech07_ImageURL = "img/HAL-21-BATT.png";
+    static string tech07_ImageURL = "img/tee_07/snap_01.png";
     static string tech07_ProductName = "Bloody Bat Biter";
     static string tech07_CodeName = "Codename: HALLOWEEN-2021-BATT";
     static string tech07_ProductColor = base_Color;
@@ -334,8 +334,8 @@ using A_WEAR_CULTURE.Shared;
     static string tech07_PromoDescription = $"{tech07_PromoPercentage}% Off {promoDescription}!";
 
     static string tech07_Desc =
-        "Design inspired by the spookiest and most enduring images of Halloween, BATS. " +
-        "During the horrific holiday season, bats are placed firmly deep into pop culture. " +
+        "Design inspired by the spookiest and most enduring images of Halloween. Bats. " +
+        "During the horrific holiday season, bats have taken hold evoking the scariest manifestation of pop culture. " +
         "Made popular by the vampire fiction Bram Stoker's 1897 novel 'Dracula' where " +
         "Vampires can turn into bats at will. Taken from the book, '... thought it well to know " +
         "if possible where the Count would go when he left the house. I did not see him, " +
@@ -360,7 +360,7 @@ using A_WEAR_CULTURE.Shared;
     // Product 08
     static int tech08_ProductID = 8;
     static int tech08_CategoryID = 1;
-    static string tech08_ImageURL = "img/HAL-2021-HOUS.png";
+    static string tech08_ImageURL = "img/tee_08/snap_01.png";
     static string tech08_ProductName = "Horribly Haunted House";
     static string tech08_CodeName = "Codename: HALLOWEEN-2021-HOUS";
     static string tech08_ProductColor = base_Color;
@@ -372,19 +372,19 @@ using A_WEAR_CULTURE.Shared;
 
     static string tech08_Desc =
         "Design inspired by Haunted Houses, Spook Houses or Ghost Houses. " +
-        "Burned into pop culture's mind and made famous by The Amityville Horror, a 1977 cult classic. " +
-        "Made popular by the vampire fiction Bram Stoker's 1897 novel 'Dracula' where " +
-        "Vampires can turn into bats at will. Taken from the book, '... thought it well to know " +
-        "if possible where the Count would go when he left the house. I did not see him, " +
-        "but I saw a bat rise from Renfield's window and flap westward.' " +
-        "The black, winged shapes flying through the dusky night sky are eternally linked to Halloween. " +
-        "It may have started long ago, when the ancient Celtics lit large bonfires as " +
-        "darkness approached to ward off the evil spirits of the night. According to the legends, " +
-        "the Celtics believed the ghosts of their ancestors returned to earth once each year on " +
-        "the night of October 31st when the spirits of the dead could cross over into the world of the living. " +
-        "For centuries, tales and rumors of blood-sucking bats spread throughout Europe. " +
-        "The evil images of a winged demon stalked the night to prey on the blood of " +
-        "unsuspecting victims while they slept, fit perfectly into the dark lore of Halloween." +
+        "Burned into pop culture's minds and made famous by The Amityville Horror, a 1977 cult classic. " +
+        "According to historians, hauntings are usually associated with " +
+        "ghostly or supernatural encounters. In other cultures " +
+        "around the world, various spirits are said to haunt vacant homes and locations. " +
+        "Historically, since most people died in their homes, " +
+        "whether they were mansions or hovels, these homes became natural places for ghosts to haunt, " +
+        "with bedrooms being the most common rooms to be haunted. Many houses gained a reputation for being " +
+        "haunted after they were empty or derelict. It was widely thought that '...if people were to fail to " +
+        "occupy a human space, then external forces would move in'. " +
+        "In ghostlore haunted houses are often perceived as being inhabited by disembodied spirits of the " +
+        "deceased who may have been former residents or were otherwise connected with the property. " +
+        "Parapsychologists often attribute haunting to the spirits of the dead who have suffered from violent or " +
+        "tragic events in the building's past such as murder, accidental death, or suicide." +
         "<br><br>" +
 
         "+ Designed and Printed in the U.S.A. <br>" +
@@ -435,7 +435,7 @@ using A_WEAR_CULTURE.Shared;
         }
     }
 
-    //Product Description on the Card Front needs to be shortened 
+    //Product Description on the Card Front needs to be shortened
     public static string shortensIntro(string[] arrIntro)
     {
         string shortIntro = "";
@@ -449,9 +449,34 @@ using A_WEAR_CULTURE.Shared;
         return shortIntro;
     }
 
+    public async void OnButtonClick()
+    {
+        await JSRuntime.InvokeVoidAsync("topFunction");
+    }
+
+
+    
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 582 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/ProductList.razor"
+       
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("changeImg");
+        }
+    }
+
+
+
     //List of products
     public static List<Product> products = new List<Product>
-    {
+{
         new Product
         {
             ProductID = tech01_ProductID,

@@ -1,53 +1,60 @@
-﻿
+﻿@inject IJSRuntime JSRuntime;
+
+
 <div class="top-row pl-4 navbar navbar-dark box-logo">
     <a class="navbar-brand" href="">
         @*<img class="img-logo" src="img/logo-caw.png" alt="Culture A Wear logo" />*@
-        <img class="img-logo" src="img/logo-caw-white.png" alt="Culture A Wear logo" />
+        <img class="img-logo" src="img/logo-caw-pink.png" alt="Culture A Wear logo" />
     </a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
 </div>
 
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu" onload="scrollFunction();" onscroll="scrollFunction();">
     <ul class="nav flex-column">
         @*<li class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </li>*@
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </li>*@
 
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
+        <li class="nav-item px-3 sm-10-font">
+            <NavLink class="nav-link" @onclick="OnButtonClick" href="#">Halloween Collection 01</NavLink>
+        </li>
+
+        <li class="nav-item px-3 sm-10-font">
+            <NavLink class="nav-link" href="#section_collection_2">Techwear Collection 01</NavLink>
         </li>
 
         <li class="nav-item px-3">
+            <NavLink class="nav-link sm-10-font" href="counter">
+                Counter
+            </NavLink>
+        </li>
+
+        <li class="nav-item px-3 sm-10-font">
             <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                Fetch data
             </NavLink>
         </li>
-
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-info" aria-hidden="true"></span> About
-            </NavLink>
-        </li>
-
-        @*bi-info-square*@
-
-
     </ul>
 </div>
 
-@code {
-    private bool collapseNavMenu = true;
 
+@code
+{
+    private bool collapseNavMenu = true;
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+
+    public async void OnButtonClick()
+    {
+        await JSRuntime.InvokeVoidAsync("topFunction");
     }
 }

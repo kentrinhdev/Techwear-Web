@@ -90,10 +90,9 @@ using A_WEAR_CULTURE.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 44 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/NavMenu.razor"
-       
+#line 46 "/Users/kentrinh/Projects/A_WEAR_CULTURE/A_WEAR_CULTURE/Client/Shared/NavMenu.razor"
+ 
     private bool collapseNavMenu = true;
-
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
@@ -101,9 +100,16 @@ using A_WEAR_CULTURE.Shared;
         collapseNavMenu = !collapseNavMenu;
     }
 
+
+    public async void OnButtonClick()
+    {
+        await JSRuntime.InvokeVoidAsync("topFunction");
+    }
+
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JSRuntime { get; set; }
     }
 }
 #pragma warning restore 1591
